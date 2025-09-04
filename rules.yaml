@@ -1,0 +1,9 @@
+allowed_sources:
+  - GitHub
+  - Slack
+  - Stripe
+
+auto_mock:
+  GitHub:
+    status: 200
+    message: "Fake deploy accepted"
